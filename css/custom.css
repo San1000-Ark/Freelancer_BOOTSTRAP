@@ -1,0 +1,157 @@
+/* Personalización de variables */
+:root {
+    --bs-primary: #000000;
+    --bs-body-bg: #ffffff;
+    --bs-font-sans-serif: 'Roboto', sans-serif;
+  }
+  
+  /* Hero personalizado */
+  .masthead {
+    background-color: var(--bs-primary);
+    padding: 120px 0;
+  }
+  
+  /* Divider Custom */
+  .divider-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .divider-custom-line {
+    width: 50px;
+    height: 4px;
+    background-color: #ffffff;
+    margin: 0 10px;
+  }
+  
+  .divider-custom-icon {
+    color: #fbff00;
+    font-size: 2rem;
+  }
+  
+  /* Avatar imagen */
+  .masthead-avatar {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  /* About Section */
+  .bg-primary {
+    background-color: var(--bs-primary) !important;
+  }
+
+  /* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nameUser{
+    color: #2f8100;
+    border: solid rgb(255, 255, 255);
+    border-radius: 20px;
+    background-color: #000000;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c4c4c4;
+  color: #000000;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  color: #000000;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #181818;
+}
+
+/* Secciones */
+section {
+  margin-bottom: 50px;
+}
+
+section h2 {
+  color: #000000;
+  border-bottom: 2px solid #1eff00;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* Contenedor proyectos */
+.proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Cada proyecto */
+.proyecto {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.proyecto:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Imagen/icono */
+.proyecto img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+/* Título proyecto */
+.proyecto h3 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+/* Enlace */
+.proyecto a {
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.proyecto a:hover {
+  background-color: #48ff00;
+  color: #000000;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  color: #000000;
+  margin-top: 60px;
+  font-size: 0.9rem;
+}
