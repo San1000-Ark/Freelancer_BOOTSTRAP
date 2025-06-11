@@ -38,8 +38,15 @@ Se sobrescribieron variables CSS de Bootstrap para ajustar:
 
 Puedes ver el proyecto desplegado en **GitHub Pages** aquí:
 
-👉 [Ver Demo](https://San1000-Ark.github.io//)
+👉 [Ver Demo](https://san1000-ark.github.io/Freelancer_BOOTSTRAP/#page-top)
 
 ---
 
 Clonado y adaptado por: **SANTIAGO RESTREPO ARISMENDY**
+
+---
+
+## Maquetacion
+
+![MAKETA1](https://github.com/user-attachments/assets/2379a93a-5be0-4b7d-80cd-ccc5146467f6)
+
